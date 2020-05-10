@@ -732,10 +732,96 @@ header .menu-bar nav {
     padding-top: 100px;
     text-align: center; }
     .section-projects .projects .presentation {
-      border: 1px solid #241201;
       display: inline-block;
-      padding: 0 270px;
-      font-weight: 300; }
+      padding: 0 215px; }
+      .section-projects .projects .presentation .title {
+        font-size: 2.125rem;
+        font-weight: 300; }
+      .section-projects .projects .presentation .text {
+        margin: 15px 0;
+        font-size: 1.125rem; }
+    .section-projects .projects .project-categories {
+      border: 1px solid #E9E9E9;
+      border-radius: 28px;
+      display: inline-block;
+      padding: 0.625rem;
+      background-color: #E9E9E9;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 45%;
+      margin: 0 auto; }
+      .section-projects .projects .project-categories .item a {
+        text-decoration: none;
+        padding: 10px 0px;
+        font-size: 0.875rem;
+        color: #7A7A7A;
+        font-weight: 400;
+        text-transform: uppercase; }
+    .section-projects .projects .project-list {
+      margin-top: 100px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      text-align: center; }
+      .section-projects .projects .project-list .card {
+        width: 20.4375rem;
+        margin-bottom: 20px;
+        color: #ADADAD;
+        border-radius: 0; }
+        .section-projects .projects .project-list .card .card-body {
+          padding: .31rem;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column; }
+          .section-projects .projects .project-list .card .card-body .title {
+            font-size: 1.125rem;
+            text-transform: uppercase;
+            font-weight: 200; }
+          .section-projects .projects .project-list .card .card-body .text {
+            font-size: 0.875rem; }
+  .section-projects .section-banner-3 {
+    padding: 150px 0; }
+    .section-projects .section-banner-3 .banner-3 .context-text {
+      text-align: center !important;
+      text-transform: uppercase;
+      margin: 0 auto; }
 
 /*-------------------------RESPONSIVE --------------------------------- */
 @media only screen and (min-width: 431px) {
